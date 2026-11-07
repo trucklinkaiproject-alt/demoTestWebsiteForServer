@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>One Day, We'll Miss This Mess.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,800;1,9..144,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="progress"></div>
+<canvas id="confetti"></canvas>
+<div id="pmode-hint">Presentation mode · press F to exit</div>
+
+<header class="hero" id="top">
+  <div class="orb o1"></div><div class="orb o2"></div>
+  <span class="float f1">“Sir, proxy?”</span>
+  <span class="float f2">PDF.final.v7</span>
+  <span class="float f3">chai ☕</span>
+  <h1 class="hero-title"><span>ONE DAY,</span><span>WE'LL MISS</span><span class="hl">THIS MESS.</span></h1>
+  <p class="sub">Right now, we complain about university life. Someday, we'll probably pay to experience it again.</p>
+  <p class="tag">8th Semester. Still Surviving. Already Feeling Nostalgic.</p>
+  <button class="btn" data-go="#complain">Let's Imagine The Future</button>
+</header>
+
+<section id="complain">
+  <h2>Things We Hate Today... But Might Miss Tomorrow.</h2>
+  <p class="hint">Tap or hover a card to reveal the future.</p>
+  <div class="cards" id="cards"></div>
+</section>
+
+<section id="report" class="alt">
+  <h2>An Unofficial Report on Our Academic Survival</h2>
+  <p class="hint">100% fictional comedy statistics. Peer-reviewed by nobody.</p>
+  <div class="stats" id="stats"></div>
+</section>
+
+<section id="future">
+  <h2>Imagine It's 2030...</h2>
+  <div class="memory"><p id="memText">Press the button. Brace yourself.</p></div>
+  <button class="btn" id="memBtn">What Will We Miss?</button>
+</section>
+
+<section id="poetry" class="alt">
+  <h2 class="small">Thori Hansi, Thori Shayari, Thori Si University Ki Kahani.</h2>
+  <div class="poems" id="poems"></div>
+  <h3 class="mini">Chand Aur Sher (Bonus Couplets)</h3>
+  <div class="couplets" id="couplets"></div>
+</section>
+
+<section id="memories">
+  <h2>Some Memories Are Not in the Syllabus.</h2>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section id="letter" class="alt">
+  <div class="letter">
+    <h2>Dear Future Us...</h2>
+    <p class="l">Dear Future Us,</p>
+    <p class="l">If you're reading this after graduation, we hope you remember how ordinary these days once seemed.</p>
+    <p class="l">Remember the friends sitting beside you.<br>Remember the lectures you wanted to skip.<br>Remember the jokes nobody else understood.<br>Remember the teachers who kept pushing you forward.</p>
+    <p class="l">We know we complain about university every single day.</p>
+    <p class="l">But maybe, just maybe, these are the days we'll wish we could live one more time.</p>
+    <p class="l">So before this chapter ends...</p>
+    <p class="l big">Let's enjoy the chaos while we're still part of it.</p>
+  </div>
+</section>
+
+<footer id="end">
+  <h2 class="huge">WE'RE NOT AT THE END YET.</h2>
+  <p class="sub">We still have lectures to attend, assignments to submit, exams to survive, and memories to create.</p>
+  <div class="status"><span>University Life: Currently Under Construction.</span><span class="hl">Nostalgia: Already Installed.</span></div>
+  <button class="btn pulse" id="backBtn">Back to the Beginning</button>
+  <p class="hint">Tip: press F for presentation mode · click the title for a surprise</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
